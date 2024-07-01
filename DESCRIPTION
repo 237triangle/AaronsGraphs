@@ -13,3 +13,5 @@ RoxygenNote: 7.2.3
 Imports: 
     dplyr,
     igraph
+URL: https://github.com/237triangle/AaronsGraphs
+BugReports: https://github.com/237triangle/AaronsGraphs/issues
