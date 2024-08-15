@@ -52,6 +52,7 @@ triangle_list_fn <- function(A){
     dplyr::arrange(V1) |>
     dplyr::group_by(V1) |> dplyr::arrange(V2) |>
     dplyr::ungroup()
+  # here is a note dated 2024-08-13 to check if token is working...
   df <- df |> dplyr::group_by(V1, V2) |>
     dplyr::arrange(V3, .by_group = T) |>
     dplyr::ungroup()
